@@ -1,0 +1,17 @@
+﻿
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+a, a:visited {
+    text-decoration:none;
+    color:royalblue;
+}
+
+.content {
+    padding: 10px;
+    margin-top: 10px;
+    border: solid 1px gainsboro;
+    background-color: whitesmoke;
+}
