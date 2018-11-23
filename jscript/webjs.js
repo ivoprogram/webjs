@@ -4,7 +4,7 @@
 Title: WebJS
 Description: WebJS is a web framework for client side web development.
 Author: Ivo Gjorgjievski
-Website: www.ivoprogram.com
+Website: ivoprogram.com
 License: GNU General Public License v3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
 Dependency: JQuery
 
@@ -94,7 +94,7 @@ var webjs = webjs || {};
             }
 
             // Filter content, replace, scroll
-            content.children('meta,link,title').remove();
+            content.find("title,meta,link,script").remove();
             $(".content").html($(content).html());
             window.scrollTo(0, 0);
 

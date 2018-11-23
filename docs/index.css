@@ -1,0 +1,31 @@
+﻿
+body {
+    margin:5%;
+    font-family: "Open Sans", Roboto, Arial, sans-serif;
+    font-size: 100%;
+    color: #111;
+    /*background-color: #fafafa;*/
+}
+
+
+a, a:visited, a:active {
+    color: #1976D2;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #F44336;
+        text-decoration: underline;
+    }
+
+
+p {
+    max-width: 45em;
+}
+
+h1,h2,h3 {
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+
