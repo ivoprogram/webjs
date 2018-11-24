@@ -45,11 +45,13 @@ var webjs = webjs || {};
     // contentUrl
     function contentUrl() {
 
-        // 
+        // Get content from home url or parameters
         var url = homeUrl;
         var params = document.URL.split("content=");
         if (params[1]) {
             url = params[1];
+            url = url.split("?")[0];
+            url = url.split("&")[0];
         }
 
         return url;

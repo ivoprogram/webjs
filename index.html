@@ -6,8 +6,18 @@
     <title>WebJS</title>
 
     <script type="text/javascript">
+
+        // Split parameters and pass them to target url
+        var url = "content/en/index.html";
+        var params = window.location.href.split("?")[1];
+        params = (params ? "?" + params : "");
+
+        // window.location.replace(url + params);
+        window.location.href = url + params;
+
+        // Version 1.0
         //window.location.replace(url);
-        window.location.href = "content/en/index.html";
+        //window.location.href = "content/en/index.html";
     </script>
 
 </head>
