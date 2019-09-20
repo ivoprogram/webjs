@@ -6,6 +6,6 @@ WebJS framework allows development of client side web applications with HTML, CS
 
 
 Documentation:\
-[http://ivoprogram.com?content=webjs.html](http://ivoprogram.com?content=webjs.html)
+[https://ivoprogram.github.io?content=webjs.html](https://ivoprogram.github.io?content=webjs.html)
 
 
